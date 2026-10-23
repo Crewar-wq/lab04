@@ -40,8 +40,8 @@ jobs:
       - name: Generate HTML coverage report
         run: |
           dotnet tool restore
-          dotnet tool run reportgenerator '-reports:artifacts/coverage/**/coverage.cobertura.xml' '-targetdir:artifacts/coverage-html' '-reporttypes:Html;MarkdownSummaryGithub'
-          dotnet tool run reportgenerator '-reports:artifacts/before/**/coverage.cobertura.xml' '-targetdir:artifacts/before-html' '-reporttypes:Html'
+          dotnet tool run reportgenerator '-reports:artifacts/coverage/*/coverage.cobertura.xml' '-targetdir:artifacts/coverage-html' '-reporttypes:Html;MarkdownSummaryGithub'
+          dotnet tool run reportgenerator '-reports:artifacts/before/*/coverage.cobertura.xml' '-targetdir:artifacts/before-html' '-reporttypes:Html'
       - name: Measure performance
         run: |
           dotnet run --project tools/Lab04.Performance -c Release --no-build -- artifacts/performance.json

@@ -5,7 +5,7 @@
 Тишин М. С., группа ВБИо-401рсоб. Преподаватель: Скопин В. И.
 Дисциплина: Коллективная разработка приложений.
 
-Работа развивает существующий C#-проект из [лабораторной №2](https://github.com/Crewar-wq/lab02/tree/main/src/Part1.Interfaces). Исходные файлы импортированы отдельным коммитом и отмечены тегом `baseline-import`. Формулы, сообщения и успешный сценарий сохранены. Из монолитного файла выделены платежи, логирование и демонстрационные операции; файловая система доступна через `ILogStorage`. На границе приложения добавлена обработка `IOException` с кодом выхода 1.
+Работа развивает существующий C#-проект из [лабораторной №2](https://github.com/Crewar-wq/lab02/tree/main/src/Part1.Interfaces). Исходные файлы импортированы отдельным коммитом и сохранены в ветке `baseline-import`. Формулы, сообщения и успешный сценарий сохранены. Из монолитного файла выделены платежи, логирование и демонстрационные операции; файловая система доступна через `ILogStorage`. На границе приложения добавлена обработка `IOException` с кодом выхода 1.
 
 ## Структура
 
@@ -37,7 +37,7 @@ python3 scripts/check_coverage.py
 ```bash
 dotnet test tests/Lab04.Tests -c Release --settings coverage.runsettings --collect:"XPlat Code Coverage" --results-directory artifacts/before --filter 'Stage=Baseline'
 dotnet tool restore
-dotnet tool run reportgenerator '-reports:artifacts/coverage/**/coverage.cobertura.xml' '-targetdir:artifacts/coverage-html' '-reporttypes:Html'
+dotnet tool run reportgenerator '-reports:artifacts/coverage/*/coverage.cobertura.xml' '-targetdir:artifacts/coverage-html' '-reporttypes:Html'
 ```
 
 Для нового замера удалите предыдущий каталог `artifacts/coverage`, иначе несколько XML-отчётов не пройдут проверку целостности. Сборщик проверяет все строки и ветви; неполный или пустой отчёт приводит к ошибке CI.

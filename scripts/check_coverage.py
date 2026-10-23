@@ -8,9 +8,9 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 parser = argparse.ArgumentParser()
-parser.add_argument("pattern", nargs="?", default="artifacts/coverage/**/coverage.cobertura.xml")
+parser.add_argument("pattern", nargs="?", default="artifacts/coverage/*/coverage.cobertura.xml")
 args = parser.parse_args()
-paths = glob.glob(args.pattern, recursive=True)
+paths = glob.glob(args.pattern)
 if len(paths) != 1:
     raise SystemExit(f"Expected exactly one coverage report, found {len(paths)}")
 root = ET.parse(paths[0]).getroot()
