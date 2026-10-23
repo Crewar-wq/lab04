@@ -1,0 +1,2 @@
+Lines: 116/116; branches: 12/12
+Exit code: 0

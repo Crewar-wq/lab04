@@ -1,0 +1,3 @@
+Lines: 7/116; branches: 1/12
+Coverage threshold failed: both lines and branches must equal 100%
+Exit code: 1

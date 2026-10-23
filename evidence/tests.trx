@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c2671bbf-43c8-4614-bf0b-5758f8e84d1c" name="@runnervm8k3b6 2026-10-23 16:59:41" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-23T16:59:41.1927509+00:00" queuing="2026-10-23T16:59:41.1927510+00:00" start="2026-10-23T16:59:40.1981281+00:00" finish="2026-10-23T16:59:41.4491987+00:00" />
+  <TestSettings name="default" id="eeb0ff4c-7bd9-4d6a-950f-6cc61fc7a990">
+    <Deployment runDeploymentRoot="_runnervm8k3b6_2026-10-23_16_59_41" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="17e5a1fd-40f4-45ac-971a-2c8edd60e28b" testId="cb33f877-d13b-f2e8-1e86-e22c8e6b006e" testName="Lab04.Tests.ApplicationTests.Run_UsesRequestedOrDefaultPath(custom: True)" computerName="runnervm8k3b6" duration="00:00:00.0183874" startTime="2026-10-23T16:59:41.2250071+00:00" endTime="2026-10-23T16:59:41.2250071+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17e5a1fd-40f4-45ac-971a-2c8edd60e28b" />
+    <UnitTestResult executionId="0fbcaea4-2c12-4566-b051-4f5f02c22d00" testId="9deccee0-ec52-86d9-0fe2-5e071c71f795" testName="Lab04.Tests.ShapesTests.Point_MoveSetsAbsoluteCoordinates" computerName="runnervm8k3b6" duration="00:00:00.0036363" startTime="2026-10-23T16:59:41.1752335+00:00" endTime="2026-10-23T16:59:41.1752335+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fbcaea4-2c12-4566-b051-4f5f02c22d00" />
+    <UnitTestResult executionId="9801067e-3588-4c09-af0a-943c8e75aa3e" testId="c68fef66-ddd0-a9c2-106b-aa45480ca0d0" testName="Lab04.Tests.DevicesAndPaymentsTests.ProcessPayment_PropagatesDependencyFailure" computerName="runnervm8k3b6" duration="00:00:00.0013154" startTime="2026-10-23T16:59:41.2340564+00:00" endTime="2026-10-23T16:59:41.2340564+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9801067e-3588-4c09-af0a-943c8e75aa3e" />
+    <UnitTestResult executionId="3c8c8971-dfa5-4173-b762-21f08edb845b" testId="19e26dda-0347-a3ac-b3b8-55c8b0862925" testName="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: -1)" computerName="runnervm8k3b6" duration="00:00:00.0000200" startTime="2026-10-23T16:59:41.1703518+00:00" endTime="2026-10-23T16:59:41.1703518+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c8c8971-dfa5-4173-b762-21f08edb845b" />
+    <UnitTestResult executionId="4b2bba1d-7100-4976-8af0-f13eccccc52f" testId="807105b3-0fd7-6536-a8af-623a84530a13" testName="Lab04.Tests.ShapesTests.Shapes_CalculateAreaPerimeterAndVolume" computerName="runnervm8k3b6" duration="00:00:00.0038793" startTime="2026-10-23T16:59:41.1756413+00:00" endTime="2026-10-23T16:59:41.1756414+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b2bba1d-7100-4976-8af0-f13eccccc52f" />
+    <UnitTestResult executionId="d4507405-c026-4ea6-85a4-d59d1d746207" testId="c08d293a-36a8-52c8-92b2-7a0c57220f3c" testName="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: NaN)" computerName="runnervm8k3b6" duration="00:00:00.0001572" startTime="2026-10-23T16:59:41.1699872+00:00" endTime="2026-10-23T16:59:41.1699872+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4507405-c026-4ea6-85a4-d59d1d746207" />
+    <UnitTestResult executionId="9d2f1987-e965-48ff-ac7c-6d8d54c7ac74" testId="10fbe129-9c69-c5e8-fe27-4c2942358775" testName="Lab04.Tests.ApplicationTests.Run_DoesNotSwallowUnrelatedErrors" computerName="runnervm8k3b6" duration="00:00:00.0024470" startTime="2026-10-23T16:59:41.2291309+00:00" endTime="2026-10-23T16:59:41.2291310+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d2f1987-e965-48ff-ac7c-6d8d54c7ac74" />
+    <UnitTestResult executionId="b2b7690f-b7ba-4dcd-b800-477479e90aa1" testId="b033d50b-b81f-6af5-46ca-83d1e2c56d09" testName="Lab04.Tests.LoggingTests.DoWork_LogsStartThenCompletion" computerName="runnervm8k3b6" duration="00:00:00.0019318" startTime="2026-10-23T16:59:41.2363131+00:00" endTime="2026-10-23T16:59:41.2363133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2b7690f-b7ba-4dcd-b800-477479e90aa1" />
+    <UnitTestResult executionId="d6b17dd5-fe36-4a50-b988-a05b6641b92e" testId="646bd67b-4ccd-1aaf-c6d5-f750df7842bc" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: NaN)" computerName="runnervm8k3b6" duration="00:00:00.0001332" startTime="2026-10-23T16:59:41.1722642+00:00" endTime="2026-10-23T16:59:41.1722642+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6b17dd5-fe36-4a50-b988-a05b6641b92e" />
+    <UnitTestResult executionId="2fa08251-bdf2-4c76-8991-a34e36febd04" testId="c7131373-a4d0-646a-8287-33e81db6c82a" testName="Lab04.Tests.BaselineTests.Circle_HasExpectedArea" computerName="runnervm8k3b6" duration="00:00:00.0000916" startTime="2026-10-23T16:59:41.2107824+00:00" endTime="2026-10-23T16:59:41.2107825+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fa08251-bdf2-4c76-8991-a34e36febd04" />
+    <UnitTestResult executionId="af554f15-587f-4261-9c87-a9912e40d802" testId="b2267afa-2a1e-f2a9-8ecf-10150e6bec30" testName="Lab04.Tests.DevicesAndPaymentsTests.Devices_ExposeExpectedOperations" computerName="runnervm8k3b6" duration="00:00:00.0001317" startTime="2026-10-23T16:59:41.2313601+00:00" endTime="2026-10-23T16:59:41.2313601+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af554f15-587f-4261-9c87-a9912e40d802" />
+    <UnitTestResult executionId="e47d2d0e-5d3e-4deb-9947-8ba386fbc275" testId="e4d697fa-619f-e367-8b1b-0063b18c4aa9" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_PositiveAmountWritesExpectedMessage(card: True)" computerName="runnervm8k3b6" duration="00:00:00.0001399" startTime="2026-10-23T16:59:41.2344530+00:00" endTime="2026-10-23T16:59:41.2344531+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47d2d0e-5d3e-4deb-9947-8ba386fbc275" />
+    <UnitTestResult executionId="55a33259-fb4a-4bb2-a515-a8a349529ced" testId="29eb0cae-bafd-0c83-2d58-e4af31d56f85" testName="Lab04.Tests.LoggingTests.ConsoleLogger_WritesPrefix" computerName="runnervm8k3b6" duration="00:00:00.0000933" startTime="2026-10-23T16:59:41.2420420+00:00" endTime="2026-10-23T16:59:41.2420420+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55a33259-fb4a-4bb2-a515-a8a349529ced" />
+    <UnitTestResult executionId="c699a6b2-8a96-4460-aa62-6d625a01c3e7" testId="2684d4d4-747b-698b-9880-ab483e97e56c" testName="Lab04.Tests.LoggingTests.FileLogger_PropagatesPathFailure" computerName="runnervm8k3b6" duration="00:00:00.0004723" startTime="2026-10-23T16:59:41.2412962+00:00" endTime="2026-10-23T16:59:41.2412963+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c699a6b2-8a96-4460-aa62-6d625a01c3e7" />
+    <UnitTestResult executionId="a63b45f8-5043-4b66-95a2-84e50f4c68f2" testId="3c1c92a8-3115-a048-227e-731a06bc2de5" testName="Lab04.Tests.LoggingTests.FileLogger_UsesInjectedStorageInOrder" computerName="runnervm8k3b6" duration="00:00:00.0029256" startTime="2026-10-23T16:59:41.2407903+00:00" endTime="2026-10-23T16:59:41.2407905+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a63b45f8-5043-4b66-95a2-84e50f4c68f2" />
+    <UnitTestResult executionId="3c21f3cf-0e20-403b-84b6-f5dba90ffb05" testId="ab788770-54c8-e96b-33e4-e0db0595f39d" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: False, amount: -1)" computerName="runnervm8k3b6" duration="00:00:00.0000176" startTime="2026-10-23T16:59:41.2332708+00:00" endTime="2026-10-23T16:59:41.2332709+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c21f3cf-0e20-403b-84b6-f5dba90ffb05" />
+    <UnitTestResult executionId="d1b2c529-8faf-4cb1-a063-8271a613ad20" testId="c1481f7f-2b34-cdfc-6781-613cc231bc28" testName="Lab04.Tests.LoggingTests.FileLogger_PropagatesDirectoryAndWriteFailures" computerName="runnervm8k3b6" duration="00:00:00.0012978" startTime="2026-10-23T16:59:41.2433278+00:00" endTime="2026-10-23T16:59:41.2433279+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b2c529-8faf-4cb1-a063-8271a613ad20" />
+    <UnitTestResult executionId="f976e099-43c0-4924-a3e9-14737be845d2" testId="e2c3c23a-7417-bc95-55cf-201352279adc" testName="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: 0)" computerName="runnervm8k3b6" duration="00:00:00.0000162" startTime="2026-10-23T16:59:41.1494400+00:00" endTime="2026-10-23T16:59:41.1494401+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f976e099-43c0-4924-a3e9-14737be845d2" />
+    <UnitTestResult executionId="d0fed70b-ddde-4694-b946-f85bedd13c23" testId="31ada7f0-e8af-8d52-aa60-7060c490c430" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: 0)" computerName="runnervm8k3b6" duration="00:00:00.0001426" startTime="2026-10-23T16:59:41.1718975+00:00" endTime="2026-10-23T16:59:41.1718975+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fed70b-ddde-4694-b946-f85bedd13c23" />
+    <UnitTestResult executionId="e820badf-7a8a-41c7-9406-9b151172dd31" testId="e6058bb0-a892-8ab6-02c3-eae55ef295f6" testName="Lab04.Tests.ApplicationTests.Run_UsesRequestedOrDefaultPath(custom: False)" computerName="runnervm8k3b6" duration="00:00:00.0014421" startTime="2026-10-23T16:59:41.2264989+00:00" endTime="2026-10-23T16:59:41.2264989+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e820badf-7a8a-41c7-9406-9b151172dd31" />
+    <UnitTestResult executionId="fb6ad198-d0b3-45d9-8936-6c7ec6ef3218" testId="b0f27c72-60dc-6182-f7a6-eee6e384eedd" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: False, amount: 0)" computerName="runnervm8k3b6" duration="00:00:00.0001828" startTime="2026-10-23T16:59:41.2325443+00:00" endTime="2026-10-23T16:59:41.2325444+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb6ad198-d0b3-45d9-8936-6c7ec6ef3218" />
+    <UnitTestResult executionId="3ef28bb7-e1c1-45da-981c-708794be7c7c" testId="ddbc8886-7ada-2d39-a2d4-c26110f4ffae" testName="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: -Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0000145" startTime="2026-10-23T16:59:41.1492199+00:00" endTime="2026-10-23T16:59:41.1492200+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ef28bb7-e1c1-45da-981c-708794be7c7c" />
+    <UnitTestResult executionId="85795328-243f-4331-bcb0-5e8e77644d02" testId="e0a843db-6adc-961a-5852-07db92d8557a" testName="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: NaN)" computerName="runnervm8k3b6" duration="00:00:00.0000225" startTime="2026-10-23T16:59:41.1490082+00:00" endTime="2026-10-23T16:59:41.1490083+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85795328-243f-4331-bcb0-5e8e77644d02" />
+    <UnitTestResult executionId="2c273e0d-4cb2-4579-9746-c0294ccb2add" testId="84e5e5ee-70c3-69ad-7cc0-c54a08d01283" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: True, amount: 0)" computerName="runnervm8k3b6" duration="00:00:00.0000227" startTime="2026-10-23T16:59:41.2329167+00:00" endTime="2026-10-23T16:59:41.2329168+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c273e0d-4cb2-4579-9746-c0294ccb2add" />
+    <UnitTestResult executionId="04be89ec-6d43-43b2-afc6-a83d0e4b0e55" testId="6617cc5e-0ba3-087b-b790-445007cc5c1e" testName="Lab04.Tests.DevicesAndPaymentsTests.LegacyDevices_KeepTheirOriginalEmptyOperations" computerName="runnervm8k3b6" duration="00:00:00.0002793" startTime="2026-10-23T16:59:41.2317680+00:00" endTime="2026-10-23T16:59:41.2317680+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04be89ec-6d43-43b2-afc6-a83d0e4b0e55" />
+    <UnitTestResult executionId="897b2497-03bd-45c2-a6e4-6309debf1517" testId="1877a19b-17dc-2c89-802d-fca4f3e83922" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: -1)" computerName="runnervm8k3b6" duration="00:00:00.0000160" startTime="2026-10-23T16:59:41.1692239+00:00" endTime="2026-10-23T16:59:41.1692240+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="897b2497-03bd-45c2-a6e4-6309debf1517" />
+    <UnitTestResult executionId="88f366ac-db41-4935-8bce-03d6caa97d60" testId="0fddff17-69f5-9355-e364-4a725e5aa009" testName="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0002477" startTime="2026-10-23T16:59:41.1696419+00:00" endTime="2026-10-23T16:59:41.1696419+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88f366ac-db41-4935-8bce-03d6caa97d60" />
+    <UnitTestResult executionId="b55e122b-5f02-4632-aaa6-c806e650a658" testId="6971ff56-647b-fbf1-fcd3-233368f2284f" testName="Lab04.Tests.DevicesAndPaymentsTests.ProcessPayment_DelegatesExactAmount" computerName="runnervm8k3b6" duration="00:00:00.0003899" startTime="2026-10-23T16:59:41.2351886+00:00" endTime="2026-10-23T16:59:41.2351887+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b55e122b-5f02-4632-aaa6-c806e650a658" />
+    <UnitTestResult executionId="cc62b86c-4114-4cb9-a2b4-a28c9e932e5b" testId="07a5d9ab-4086-57e1-7bb2-cd16f48ea6f8" testName="Lab04.Tests.ShapesTests.Draw_WritesDescriptionsAndPrintsShapeInfo" computerName="runnervm8k3b6" duration="00:00:00.0091867" startTime="2026-10-23T16:59:41.1715063+00:00" endTime="2026-10-23T16:59:41.1715064+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc62b86c-4114-4cb9-a2b4-a28c9e932e5b" />
+    <UnitTestResult executionId="abdb0b47-60de-4398-9c79-6409e083f888" testId="215d4f00-5608-a823-bf9a-15ee7e134465" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: -Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0000128" startTime="2026-10-23T16:59:41.1748670+00:00" endTime="2026-10-23T16:59:41.1748670+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abdb0b47-60de-4398-9c79-6409e083f888" />
+    <UnitTestResult executionId="39db0419-28e1-4667-9347-f4f20617fc3c" testId="869b7b91-3998-4a66-77d4-122dc9ff5dab" testName="Lab04.Tests.LoggingTests.DoWork_DoesNotHideLoggingErrors(message: &quot;Work completed&quot;)" computerName="runnervm8k3b6" duration="00:00:00.0004606" startTime="2026-10-23T16:59:41.2378107+00:00" endTime="2026-10-23T16:59:41.2378108+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39db0419-28e1-4667-9347-f4f20617fc3c" />
+    <UnitTestResult executionId="b44e103d-1cf3-4a94-b187-e7acb33f18a8" testId="dd1b6976-78c4-08bf-1801-37072e9ddacb" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: -Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0001552" startTime="2026-10-23T16:59:41.1498987+00:00" endTime="2026-10-23T16:59:41.1498987+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b44e103d-1cf3-4a94-b187-e7acb33f18a8" />
+    <UnitTestResult executionId="9e607a9d-e261-469a-9d4c-868ee6e6548a" testId="2a93cfb2-3f10-29ca-c277-ee9874783e54" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0000187" startTime="2026-10-23T16:59:41.1501047+00:00" endTime="2026-10-23T16:59:41.1501047+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e607a9d-e261-469a-9d4c-868ee6e6548a" />
+    <UnitTestResult executionId="7d0fb1ec-0aae-41e3-ba16-a72a2f7f703d" testId="3cc485d1-0611-e2f9-3815-4ac3052834f2" testName="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: -1)" computerName="runnervm8k3b6" duration="00:00:00.0002656" startTime="2026-10-23T16:59:41.1484467+00:00" endTime="2026-10-23T16:59:41.1484468+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d0fb1ec-0aae-41e3-ba16-a72a2f7f703d" />
+    <UnitTestResult executionId="f8b1ea65-ed57-4252-a31e-9612dce32226" testId="5db3dbc2-8e18-a9a7-f0ab-535cc0ca7b9f" testName="Lab04.Tests.ApplicationTests.Run_ReturnsFailureAndReportsIoError" computerName="runnervm8k3b6" duration="00:00:00.0007977" startTime="2026-10-23T16:59:41.2309336+00:00" endTime="2026-10-23T16:59:41.2309338+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8b1ea65-ed57-4252-a31e-9612dce32226" />
+    <UnitTestResult executionId="4f3ee0f4-7069-45e5-9774-d3e809e6b279" testId="ceaffe99-c86e-c290-9962-f022d3bf7976" testName="Lab04.Tests.ShapesTests.DrawAll_CallsEachItemAndAcceptsEmptyList" computerName="runnervm8k3b6" duration="00:00:00.0442400" startTime="2026-10-23T16:59:41.2049314+00:00" endTime="2026-10-23T16:59:41.2049314+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f3ee0f4-7069-45e5-9774-d3e809e6b279" />
+    <UnitTestResult executionId="35ccb2b5-197a-43ad-9039-388a3eb0e81d" testId="51d1d79d-9672-15e6-862d-5617c450f030" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: NaN)" computerName="runnervm8k3b6" duration="00:00:00.0000159" startTime="2026-10-23T16:59:41.1503061+00:00" endTime="2026-10-23T16:59:41.1503061+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35ccb2b5-197a-43ad-9039-388a3eb0e81d" />
+    <UnitTestResult executionId="651040ec-6d80-4430-b870-4f967a702afa" testId="4398093e-4b50-dfc6-bcce-b7985e2f5433" testName="Lab04.Tests.LoggingTests.FileLogger_CreatesDirectoryAndAppendsWithoutOverwriting" computerName="runnervm8k3b6" duration="00:00:00.0004936" startTime="2026-10-23T16:59:41.2425095+00:00" endTime="2026-10-23T16:59:41.2425096+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="651040ec-6d80-4430-b870-4f967a702afa" />
+    <UnitTestResult executionId="0816c048-668f-4bda-9506-f06af67f9abc" testId="287ed647-885e-8bd9-2700-2daf7cecd3b0" testName="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: -Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0000270" startTime="2026-10-23T16:59:41.1707323+00:00" endTime="2026-10-23T16:59:41.1707323+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0816c048-668f-4bda-9506-f06af67f9abc" />
+    <UnitTestResult executionId="fcd435d3-d0d3-4ab7-91c0-16fd49b14a61" testId="eb896457-7448-e2c4-b201-726d9f0c7b78" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: 0)" computerName="runnervm8k3b6" duration="00:00:00.0002630" startTime="2026-10-23T16:59:41.1496895+00:00" endTime="2026-10-23T16:59:41.1496895+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcd435d3-d0d3-4ab7-91c0-16fd49b14a61" />
+    <UnitTestResult executionId="05fb464d-8bf2-421d-b38d-2aa8690fb718" testId="19f464cd-c025-07a0-a51c-207ab88f3d98" testName="Lab04.Tests.ApplicationTests.Main_ComposesRealStorageAndRunsApplication" computerName="runnervm8k3b6" duration="00:00:00.0010250" startTime="2026-10-23T16:59:41.2300915+00:00" endTime="2026-10-23T16:59:41.2300916+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05fb464d-8bf2-421d-b38d-2aa8690fb718" />
+    <UnitTestResult executionId="e40c3e95-ea98-4e7a-8a92-3f81ab412f65" testId="6bf8e5f0-53a2-eab4-1cd6-b98a4c24a087" testName="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0044480" startTime="2026-10-23T16:59:41.1421816+00:00" endTime="2026-10-23T16:59:41.1421969+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e40c3e95-ea98-4e7a-8a92-3f81ab412f65" />
+    <UnitTestResult executionId="9be518a9-e6f1-4fdc-baae-7be7fd33608e" testId="8a052be3-dfcb-e489-5932-e374124e539d" testName="Lab04.Tests.LoggingTests.DoWork_DoesNotHideLoggingErrors(message: &quot;Work started&quot;)" computerName="runnervm8k3b6" duration="00:00:00.0009545" startTime="2026-10-23T16:59:41.2373175+00:00" endTime="2026-10-23T16:59:41.2373175+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9be518a9-e6f1-4fdc-baae-7be7fd33608e" />
+    <UnitTestResult executionId="33aa5bd9-c8f0-4a54-b015-997d62237cdc" testId="b27b7028-a25b-0189-3331-a52502fcfb03" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: Infinity)" computerName="runnervm8k3b6" duration="00:00:00.0000120" startTime="2026-10-23T16:59:41.1744835+00:00" endTime="2026-10-23T16:59:41.1744836+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33aa5bd9-c8f0-4a54-b015-997d62237cdc" />
+    <UnitTestResult executionId="c76fdbe3-97d0-482e-80bc-b0208ac8a10b" testId="25fc8ab8-46b1-6f3b-07a1-6d84e4b2b10d" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: True, amount: -1)" computerName="runnervm8k3b6" duration="00:00:00.0003158" startTime="2026-10-23T16:59:41.2321664+00:00" endTime="2026-10-23T16:59:41.2321665+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c76fdbe3-97d0-482e-80bc-b0208ac8a10b" />
+    <UnitTestResult executionId="1eec151d-274e-49b3-84af-8d6787429fa9" testId="9b4e2916-8ae8-882d-c086-a55f55352293" testName="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: -1)" computerName="runnervm8k3b6" duration="00:00:00.0000211" startTime="2026-10-23T16:59:41.1740876+00:00" endTime="2026-10-23T16:59:41.1740877+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eec151d-274e-49b3-84af-8d6787429fa9" />
+    <UnitTestResult executionId="d21d7c61-b1b7-418e-aa5c-5accd4fd25b5" testId="a311de7b-c8e4-4bd1-fc41-62d1b92a1e25" testName="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: 0)" computerName="runnervm8k3b6" duration="00:00:00.0000189" startTime="2026-10-23T16:59:41.1711021+00:00" endTime="2026-10-23T16:59:41.1711021+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d21d7c61-b1b7-418e-aa5c-5accd4fd25b5" />
+    <UnitTestResult executionId="bfcca58b-3424-4f29-8a54-9d06eee60376" testId="26b2847a-c5ba-34d7-bfb0-161e7fc86eb5" testName="Lab04.Tests.DevicesAndPaymentsTests.Payment_PositiveAmountWritesExpectedMessage(card: False)" computerName="runnervm8k3b6" duration="00:00:00.0001416" startTime="2026-10-23T16:59:41.2348149+00:00" endTime="2026-10-23T16:59:41.2348149+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfcca58b-3424-4f29-8a54-9d06eee60376" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: NaN)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="51d1d79d-9672-15e6-862d-5617c450f030">
+      <Execution id="35ccb2b5-197a-43ad-9039-388a3eb0e81d" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidWidth" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Point_MoveSetsAbsoluteCoordinates" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="9deccee0-ec52-86d9-0fe2-5e071c71f795">
+      <Execution id="0fbcaea4-2c12-4566-b051-4f5f02c22d00" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Point_MoveSetsAbsoluteCoordinates" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.FileLogger_PropagatesDirectoryAndWriteFailures" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="c1481f7f-2b34-cdfc-6781-613cc231bc28">
+      <Execution id="d1b2c529-8faf-4cb1-a063-8271a613ad20" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="FileLogger_PropagatesDirectoryAndWriteFailures" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: -Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="287ed647-885e-8bd9-2700-2daf7cecd3b0">
+      <Execution id="0816c048-668f-4bda-9506-f06af67f9abc" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Cube_RejectsInvalidEdge" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="3cc485d1-0611-e2f9-3815-4ac3052834f2">
+      <Execution id="7d0fb1ec-0aae-41e3-ba16-a72a2f7f703d" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Circle_RejectsInvalidRadius" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: False, amount: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="b0f27c72-60dc-6182-f7a6-eee6e384eedd">
+      <Execution id="fb6ad198-d0b3-45d9-8936-6c7ec6ef3218" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_RejectsNonPositiveAmount" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.BaselineTests.Circle_HasExpectedArea" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="c7131373-a4d0-646a-8287-33e81db6c82a">
+      <Execution id="2fa08251-bdf2-4c76-8991-a34e36febd04" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.BaselineTests" name="Circle_HasExpectedArea" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="9b4e2916-8ae8-882d-c086-a55f55352293">
+      <Execution id="1eec151d-274e-49b3-84af-8d6787429fa9" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidHeight" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="e2c3c23a-7417-bc95-55cf-201352279adc">
+      <Execution id="f976e099-43c0-4924-a3e9-14737be845d2" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Circle_RejectsInvalidRadius" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ApplicationTests.Run_ReturnsFailureAndReportsIoError" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="5db3dbc2-8e18-a9a7-f0ab-535cc0ca7b9f">
+      <Execution id="f8b1ea65-ed57-4252-a31e-9612dce32226" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ApplicationTests" name="Run_ReturnsFailureAndReportsIoError" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ApplicationTests.Run_UsesRequestedOrDefaultPath(custom: False)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="e6058bb0-a892-8ab6-02c3-eae55ef295f6">
+      <Execution id="e820badf-7a8a-41c7-9406-9b151172dd31" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ApplicationTests" name="Run_UsesRequestedOrDefaultPath" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ApplicationTests.Run_UsesRequestedOrDefaultPath(custom: True)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="cb33f877-d13b-f2e8-1e86-e22c8e6b006e">
+      <Execution id="17e5a1fd-40f4-45ac-971a-2c8edd60e28b" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ApplicationTests" name="Run_UsesRequestedOrDefaultPath" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="2a93cfb2-3f10-29ca-c277-ee9874783e54">
+      <Execution id="9e607a9d-e261-469a-9d4c-868ee6e6548a" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidWidth" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.DoWork_LogsStartThenCompletion" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="b033d50b-b81f-6af5-46ca-83d1e2c56d09">
+      <Execution id="b2b7690f-b7ba-4dcd-b800-477479e90aa1" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="DoWork_LogsStartThenCompletion" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: True, amount: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="84e5e5ee-70c3-69ad-7cc0-c54a08d01283">
+      <Execution id="2c273e0d-4cb2-4579-9746-c0294ccb2add" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_RejectsNonPositiveAmount" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: NaN)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="e0a843db-6adc-961a-5852-07db92d8557a">
+      <Execution id="85795328-243f-4331-bcb0-5e8e77644d02" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Circle_RejectsInvalidRadius" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: NaN)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="646bd67b-4ccd-1aaf-c6d5-f750df7842bc">
+      <Execution id="d6b17dd5-fe36-4a50-b988-a05b6641b92e" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidHeight" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.DoWork_DoesNotHideLoggingErrors(message: &quot;Work completed&quot;)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="869b7b91-3998-4a66-77d4-122dc9ff5dab">
+      <Execution id="39db0419-28e1-4667-9347-f4f20617fc3c" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="DoWork_DoesNotHideLoggingErrors" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: -Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="dd1b6976-78c4-08bf-1801-37072e9ddacb">
+      <Execution id="b44e103d-1cf3-4a94-b187-e7acb33f18a8" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidWidth" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: -Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="215d4f00-5608-a823-bf9a-15ee7e134465">
+      <Execution id="abdb0b47-60de-4398-9c79-6409e083f888" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidHeight" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="b27b7028-a25b-0189-3331-a52502fcfb03">
+      <Execution id="33aa5bd9-c8f0-4a54-b015-997d62237cdc" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidHeight" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.DrawAll_CallsEachItemAndAcceptsEmptyList" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="ceaffe99-c86e-c290-9962-f022d3bf7976">
+      <Execution id="4f3ee0f4-7069-45e5-9774-d3e809e6b279" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="DrawAll_CallsEachItemAndAcceptsEmptyList" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Shapes_CalculateAreaPerimeterAndVolume" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="807105b3-0fd7-6536-a8af-623a84530a13">
+      <Execution id="4b2bba1d-7100-4976-8af0-f13eccccc52f" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Shapes_CalculateAreaPerimeterAndVolume" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="6bf8e5f0-53a2-eab4-1cd6-b98a4c24a087">
+      <Execution id="e40c3e95-ea98-4e7a-8a92-3f81ab412f65" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Circle_RejectsInvalidRadius" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidHeight(value: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="31ada7f0-e8af-8d52-aa60-7060c490c430">
+      <Execution id="d0fed70b-ddde-4694-b946-f85bedd13c23" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidHeight" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ApplicationTests.Main_ComposesRealStorageAndRunsApplication" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="19f464cd-c025-07a0-a51c-207ab88f3d98">
+      <Execution id="05fb464d-8bf2-421d-b38d-2aa8690fb718" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ApplicationTests" name="Main_ComposesRealStorageAndRunsApplication" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_PositiveAmountWritesExpectedMessage(card: True)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="e4d697fa-619f-e367-8b1b-0063b18c4aa9">
+      <Execution id="e47d2d0e-5d3e-4deb-9947-8ba386fbc275" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_PositiveAmountWritesExpectedMessage" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: True, amount: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="25fc8ab8-46b1-6f3b-07a1-6d84e4b2b10d">
+      <Execution id="c76fdbe3-97d0-482e-80bc-b0208ac8a10b" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_RejectsNonPositiveAmount" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="1877a19b-17dc-2c89-802d-fca4f3e83922">
+      <Execution id="897b2497-03bd-45c2-a6e4-6309debf1517" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidWidth" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.FileLogger_PropagatesPathFailure" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="2684d4d4-747b-698b-9880-ab483e97e56c">
+      <Execution id="c699a6b2-8a96-4460-aa62-6d625a01c3e7" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="FileLogger_PropagatesPathFailure" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Rectangle_RejectsInvalidWidth(value: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="eb896457-7448-e2c4-b201-726d9f0c7b78">
+      <Execution id="fcd435d3-d0d3-4ab7-91c0-16fd49b14a61" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Rectangle_RejectsInvalidWidth" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_PositiveAmountWritesExpectedMessage(card: False)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="26b2847a-c5ba-34d7-bfb0-161e7fc86eb5">
+      <Execution id="bfcca58b-3424-4f29-8a54-9d06eee60376" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_PositiveAmountWritesExpectedMessage" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Circle_RejectsInvalidRadius(value: -Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="ddbc8886-7ada-2d39-a2d4-c26110f4ffae">
+      <Execution id="3ef28bb7-e1c1-45da-981c-708794be7c7c" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Circle_RejectsInvalidRadius" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Payment_RejectsNonPositiveAmount(card: False, amount: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="ab788770-54c8-e96b-33e4-e0db0595f39d">
+      <Execution id="3c21f3cf-0e20-403b-84b6-f5dba90ffb05" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Payment_RejectsNonPositiveAmount" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.ProcessPayment_DelegatesExactAmount" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="6971ff56-647b-fbf1-fcd3-233368f2284f">
+      <Execution id="b55e122b-5f02-4632-aaa6-c806e650a658" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="ProcessPayment_DelegatesExactAmount" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.FileLogger_UsesInjectedStorageInOrder" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="3c1c92a8-3115-a048-227e-731a06bc2de5">
+      <Execution id="a63b45f8-5043-4b66-95a2-84e50f4c68f2" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="FileLogger_UsesInjectedStorageInOrder" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: -1)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="19e26dda-0347-a3ac-b3b8-55c8b0862925">
+      <Execution id="3c8c8971-dfa5-4173-b762-21f08edb845b" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Cube_RejectsInvalidEdge" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: NaN)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="c08d293a-36a8-52c8-92b2-7a0c57220f3c">
+      <Execution id="d4507405-c026-4ea6-85a4-d59d1d746207" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Cube_RejectsInvalidEdge" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.FileLogger_CreatesDirectoryAndAppendsWithoutOverwriting" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="4398093e-4b50-dfc6-bcce-b7985e2f5433">
+      <Execution id="651040ec-6d80-4430-b870-4f967a702afa" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="FileLogger_CreatesDirectoryAndAppendsWithoutOverwriting" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.LegacyDevices_KeepTheirOriginalEmptyOperations" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="6617cc5e-0ba3-087b-b790-445007cc5c1e">
+      <Execution id="04be89ec-6d43-43b2-afc6-a83d0e4b0e55" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="LegacyDevices_KeepTheirOriginalEmptyOperations" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.Devices_ExposeExpectedOperations" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="b2267afa-2a1e-f2a9-8ecf-10150e6bec30">
+      <Execution id="af554f15-587f-4261-9c87-a9912e40d802" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="Devices_ExposeExpectedOperations" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: 0)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="a311de7b-c8e4-4bd1-fc41-62d1b92a1e25">
+      <Execution id="d21d7c61-b1b7-418e-aa5c-5accd4fd25b5" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Cube_RejectsInvalidEdge" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Draw_WritesDescriptionsAndPrintsShapeInfo" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="07a5d9ab-4086-57e1-7bb2-cd16f48ea6f8">
+      <Execution id="cc62b86c-4114-4cb9-a2b4-a28c9e932e5b" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Draw_WritesDescriptionsAndPrintsShapeInfo" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.ConsoleLogger_WritesPrefix" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="29eb0cae-bafd-0c83-2d58-e4af31d56f85">
+      <Execution id="55a33259-fb4a-4bb2-a515-a8a349529ced" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="ConsoleLogger_WritesPrefix" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ShapesTests.Cube_RejectsInvalidEdge(value: Infinity)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="0fddff17-69f5-9355-e364-4a725e5aa009">
+      <Execution id="88f366ac-db41-4935-8bce-03d6caa97d60" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ShapesTests" name="Cube_RejectsInvalidEdge" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.DevicesAndPaymentsTests.ProcessPayment_PropagatesDependencyFailure" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="c68fef66-ddd0-a9c2-106b-aa45480ca0d0">
+      <Execution id="9801067e-3588-4c09-af0a-943c8e75aa3e" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.DevicesAndPaymentsTests" name="ProcessPayment_PropagatesDependencyFailure" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.ApplicationTests.Run_DoesNotSwallowUnrelatedErrors" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="10fbe129-9c69-c5e8-fe27-4c2942358775">
+      <Execution id="9d2f1987-e965-48ff-ac7c-6d8d54c7ac74" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.ApplicationTests" name="Run_DoesNotSwallowUnrelatedErrors" />
+    </UnitTest>
+    <UnitTest name="Lab04.Tests.LoggingTests.DoWork_DoesNotHideLoggingErrors(message: &quot;Work started&quot;)" storage="/home/runner/work/lab04/lab04/tests/lab04.tests/bin/release/net8.0/lab04.tests.dll" id="8a052be3-dfcb-e489-5932-e374124e539d">
+      <Execution id="9be518a9-e6f1-4fdc-baae-7be7fd33608e" />
+      <TestMethod codeBase="/home/runner/work/lab04/lab04/tests/Lab04.Tests/bin/Release/net8.0/Lab04.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Lab04.Tests.LoggingTests" name="DoWork_DoesNotHideLoggingErrors" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cb33f877-d13b-f2e8-1e86-e22c8e6b006e" executionId="17e5a1fd-40f4-45ac-971a-2c8edd60e28b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9deccee0-ec52-86d9-0fe2-5e071c71f795" executionId="0fbcaea4-2c12-4566-b051-4f5f02c22d00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c68fef66-ddd0-a9c2-106b-aa45480ca0d0" executionId="9801067e-3588-4c09-af0a-943c8e75aa3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19e26dda-0347-a3ac-b3b8-55c8b0862925" executionId="3c8c8971-dfa5-4173-b762-21f08edb845b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="807105b3-0fd7-6536-a8af-623a84530a13" executionId="4b2bba1d-7100-4976-8af0-f13eccccc52f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c08d293a-36a8-52c8-92b2-7a0c57220f3c" executionId="d4507405-c026-4ea6-85a4-d59d1d746207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10fbe129-9c69-c5e8-fe27-4c2942358775" executionId="9d2f1987-e965-48ff-ac7c-6d8d54c7ac74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b033d50b-b81f-6af5-46ca-83d1e2c56d09" executionId="b2b7690f-b7ba-4dcd-b800-477479e90aa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="646bd67b-4ccd-1aaf-c6d5-f750df7842bc" executionId="d6b17dd5-fe36-4a50-b988-a05b6641b92e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7131373-a4d0-646a-8287-33e81db6c82a" executionId="2fa08251-bdf2-4c76-8991-a34e36febd04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2267afa-2a1e-f2a9-8ecf-10150e6bec30" executionId="af554f15-587f-4261-9c87-a9912e40d802" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4d697fa-619f-e367-8b1b-0063b18c4aa9" executionId="e47d2d0e-5d3e-4deb-9947-8ba386fbc275" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29eb0cae-bafd-0c83-2d58-e4af31d56f85" executionId="55a33259-fb4a-4bb2-a515-a8a349529ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2684d4d4-747b-698b-9880-ab483e97e56c" executionId="c699a6b2-8a96-4460-aa62-6d625a01c3e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c1c92a8-3115-a048-227e-731a06bc2de5" executionId="a63b45f8-5043-4b66-95a2-84e50f4c68f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab788770-54c8-e96b-33e4-e0db0595f39d" executionId="3c21f3cf-0e20-403b-84b6-f5dba90ffb05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1481f7f-2b34-cdfc-6781-613cc231bc28" executionId="d1b2c529-8faf-4cb1-a063-8271a613ad20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2c3c23a-7417-bc95-55cf-201352279adc" executionId="f976e099-43c0-4924-a3e9-14737be845d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31ada7f0-e8af-8d52-aa60-7060c490c430" executionId="d0fed70b-ddde-4694-b946-f85bedd13c23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6058bb0-a892-8ab6-02c3-eae55ef295f6" executionId="e820badf-7a8a-41c7-9406-9b151172dd31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0f27c72-60dc-6182-f7a6-eee6e384eedd" executionId="fb6ad198-d0b3-45d9-8936-6c7ec6ef3218" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddbc8886-7ada-2d39-a2d4-c26110f4ffae" executionId="3ef28bb7-e1c1-45da-981c-708794be7c7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0a843db-6adc-961a-5852-07db92d8557a" executionId="85795328-243f-4331-bcb0-5e8e77644d02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e5e5ee-70c3-69ad-7cc0-c54a08d01283" executionId="2c273e0d-4cb2-4579-9746-c0294ccb2add" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6617cc5e-0ba3-087b-b790-445007cc5c1e" executionId="04be89ec-6d43-43b2-afc6-a83d0e4b0e55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1877a19b-17dc-2c89-802d-fca4f3e83922" executionId="897b2497-03bd-45c2-a6e4-6309debf1517" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fddff17-69f5-9355-e364-4a725e5aa009" executionId="88f366ac-db41-4935-8bce-03d6caa97d60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6971ff56-647b-fbf1-fcd3-233368f2284f" executionId="b55e122b-5f02-4632-aaa6-c806e650a658" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07a5d9ab-4086-57e1-7bb2-cd16f48ea6f8" executionId="cc62b86c-4114-4cb9-a2b4-a28c9e932e5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="215d4f00-5608-a823-bf9a-15ee7e134465" executionId="abdb0b47-60de-4398-9c79-6409e083f888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="869b7b91-3998-4a66-77d4-122dc9ff5dab" executionId="39db0419-28e1-4667-9347-f4f20617fc3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd1b6976-78c4-08bf-1801-37072e9ddacb" executionId="b44e103d-1cf3-4a94-b187-e7acb33f18a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a93cfb2-3f10-29ca-c277-ee9874783e54" executionId="9e607a9d-e261-469a-9d4c-868ee6e6548a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cc485d1-0611-e2f9-3815-4ac3052834f2" executionId="7d0fb1ec-0aae-41e3-ba16-a72a2f7f703d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5db3dbc2-8e18-a9a7-f0ab-535cc0ca7b9f" executionId="f8b1ea65-ed57-4252-a31e-9612dce32226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceaffe99-c86e-c290-9962-f022d3bf7976" executionId="4f3ee0f4-7069-45e5-9774-d3e809e6b279" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51d1d79d-9672-15e6-862d-5617c450f030" executionId="35ccb2b5-197a-43ad-9039-388a3eb0e81d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4398093e-4b50-dfc6-bcce-b7985e2f5433" executionId="651040ec-6d80-4430-b870-4f967a702afa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="287ed647-885e-8bd9-2700-2daf7cecd3b0" executionId="0816c048-668f-4bda-9506-f06af67f9abc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb896457-7448-e2c4-b201-726d9f0c7b78" executionId="fcd435d3-d0d3-4ab7-91c0-16fd49b14a61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19f464cd-c025-07a0-a51c-207ab88f3d98" executionId="05fb464d-8bf2-421d-b38d-2aa8690fb718" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bf8e5f0-53a2-eab4-1cd6-b98a4c24a087" executionId="e40c3e95-ea98-4e7a-8a92-3f81ab412f65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a052be3-dfcb-e489-5932-e374124e539d" executionId="9be518a9-e6f1-4fdc-baae-7be7fd33608e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b27b7028-a25b-0189-3331-a52502fcfb03" executionId="33aa5bd9-c8f0-4a54-b015-997d62237cdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25fc8ab8-46b1-6f3b-07a1-6d84e4b2b10d" executionId="c76fdbe3-97d0-482e-80bc-b0208ac8a10b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b4e2916-8ae8-882d-c086-a55f55352293" executionId="1eec151d-274e-49b3-84af-8d6787429fa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a311de7b-c8e4-4bd1-fc41-62d1b92a1e25" executionId="d21d7c61-b1b7-418e-aa5c-5accd4fd25b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26b2847a-c5ba-34d7-bfb0-161e7fc86eb5" executionId="bfcca58b-3424-4f29-8a54-9d06eee60376" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="48" executed="48" passed="48" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.32)
+[xUnit.net 00:00:00.05]   Discovering: Lab04.Tests
+[xUnit.net 00:00:00.10]   Discovered:  Lab04.Tests
+[xUnit.net 00:00:00.10]   Starting:    Lab04.Tests
+[xUnit.net 00:00:00.24]   Finished:    Lab04.Tests
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="runnervm8k3b6" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="runnervm8k3b6/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,31 @@
+{
+  "Utc": "2026-10-23T16:55:46.8395934+00:00",
+  "Framework": ".NET 8.0.32",
+  "OS": "Ubuntu 24.04.3 LTS",
+  "Architecture": "X64",
+  "Iterations": 1000000,
+  "Repeats": 9,
+  "Results": [
+    {
+      "Name": "Circle.GetArea",
+      "MedianMilliseconds": 4.4196,
+      "NanosecondsPerOperation": 4.4196,
+      "AllocatedBytesPerOperation": 0,
+      "Checksum": 706858347.0899736
+    },
+    {
+      "Name": "Rectangle.GetArea",
+      "MedianMilliseconds": 6.0735,
+      "NanosecondsPerOperation": 6.0735,
+      "AllocatedBytesPerOperation": 0,
+      "Checksum": 216000000
+    },
+    {
+      "Name": "Cube.GetVolume",
+      "MedianMilliseconds": 7.4528,
+      "NanosecondsPerOperation": 7.4528,
+      "AllocatedBytesPerOperation": 0,
+      "Checksum": 243000000
+    }
+  ]
+}
