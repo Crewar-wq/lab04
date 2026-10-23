@@ -1,0 +1,55 @@
+name: Lab04 CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: build-test-coverage
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+          cache: true
+          cache-dependency-path: '**/packages.lock.json'
+      - name: Restore locked dependencies
+        run: dotnet restore Lab04.sln --locked-mode
+      - name: Build
+        run: dotnet build Lab04.sln -c Release --no-restore
+      - name: Record baseline with one test
+        run: >-
+          dotnet test tests/Lab04.Tests -c Release --no-build --no-restore
+          --settings coverage.runsettings --collect:"XPlat Code Coverage"
+          --results-directory artifacts/before --filter 'Stage=Baseline'
+          --logger "trx;LogFileName=baseline.trx"
+      - name: Test and collect coverage
+        run: >-
+          dotnet test tests/Lab04.Tests -c Release --no-build --no-restore
+          --settings coverage.runsettings --collect:"XPlat Code Coverage"
+          --results-directory artifacts/coverage --logger "trx;LogFileName=tests.trx"
+      - name: Require 100 percent lines and branches
+        run: python3 scripts/check_coverage.py
+      - name: Generate HTML coverage report
+        run: |
+          dotnet tool restore
+          dotnet tool run reportgenerator '-reports:artifacts/coverage/**/coverage.cobertura.xml' '-targetdir:artifacts/coverage-html' '-reporttypes:Html;MarkdownSummaryGithub'
+          dotnet tool run reportgenerator '-reports:artifacts/before/**/coverage.cobertura.xml' '-targetdir:artifacts/before-html' '-reporttypes:Html'
+      - name: Measure performance
+        run: |
+          dotnet run --project tools/Lab04.Performance -c Release --no-build -- artifacts/performance.json
+          python3 scripts/performance_summary.py artifacts/performance.json
+      - name: Save reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tests-coverage-performance
+          path: artifacts/
+          retention-days: 30

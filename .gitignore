@@ -3,4 +3,6 @@
 TestResults/
 artifacts/
 .vs/
+core
+core.*
 

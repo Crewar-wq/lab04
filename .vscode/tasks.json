@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"Lab04 build","type":"process","command":"dotnet","args":["build","Lab04.sln","-c","Release"],"problemMatcher":"$msCompile","group":"build"},
+    {"label":"Lab04 tests and coverage","type":"process","command":"dotnet","args":["test","tests/Lab04.Tests","-c","Release","--settings","coverage.runsettings","--collect:XPlat Code Coverage","--results-directory","artifacts/coverage"],"problemMatcher":"$msCompile","group":"test"},
+    {"label":"Lab04 performance","type":"process","command":"dotnet","args":["run","--project","tools/Lab04.Performance","-c","Release","--","artifacts/performance.json"],"problemMatcher":"$msCompile"}
+  ]
+}
