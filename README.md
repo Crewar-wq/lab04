@@ -50,7 +50,7 @@ dotnet tool run reportgenerator '-reports:artifacts/coverage/*/coverage.cobertur
 
 GitHub Actions запускает сборку, начальный тест, полный набор, проверку покрытия, генерацию HTML и измерение производительности при каждом `push` и `pull_request`. XML, TRX, HTML и замеры доступны в артефакте `tests-coverage-performance`; время и память также выводятся в Job summary.
 
-Правило защиты `main` пока не включено: его изменение ожидает явного согласия владельца. Чтобы запретить слияние при ошибках, для `main` нужно потребовать pull request и успешную проверку `build-test-coverage`, актуальность ветки и применение правила к администраторам. До включения правила сам workflow не запрещает ручное слияние.
+Защита `main` включена 26 октября 2026 года. Для изменений обязательны pull request, актуальность ветки и успешная проверка `build-test-coverage` от GitHub Actions. Правило применяется к администраторам, обход ограничений отключён. Публичный API ветки подтверждает `protected=true` и обязательность проверки для всех участников.
 
 ```bash
 dotnet run --project tools/Lab04.Performance -c Release -- artifacts/performance.json
